@@ -1,1 +1,16 @@
+🔍 WPScan is a powerful WordPress security scanning tool that helps identify vulnerabilities, misconfigurations, and weak points in WordPress websites. 🛡️🔒
 
+🕵️‍♀️ Scan a single target: Scan a specific WordPress website for known vulnerabilities and weaknesses.
+🌐 Bulk Scan: Perform a batch scan on multiple WordPress websites to identify common security issues.
+🔍 Username Enumeration: Enumerate WordPress usernames to discover potential targets for brute-force attacks.
+🚪 Password Brute-Force: Conduct a password guessing attack to test the strength of user passwords.
+🔄 Update WPScan: Keep WPScan up to date with the latest vulnerability databases and security checks.
+
+Commands:
+
+⚡️ wpscan --url <target-url>: Scan a specific WordPress website for vulnerabilities, including plugin and theme vulnerabilities, configuration issues, and more.
+🔎 wpscan --enumerate u: Enumerate WordPress usernames to discover potential targets for brute-force attacks.
+🔄 wpscan --enumerate p: Enumerate WordPress plugins to identify outdated or vulnerable versions.
+🎨 wpscan --enumerate t: Enumerate WordPress themes to identify outdated or vulnerable versions.
+🔐 wpscan --passwords <wordlist-file>: Perform a password brute-force attack using a specified wordlist file.
+📂 wpscan --wp-content-dir <custom-directory>: Specify a custom WordPress content directory if it's different from the default.
