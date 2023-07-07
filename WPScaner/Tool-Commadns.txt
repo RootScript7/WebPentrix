@@ -8,10 +8,14 @@ es (13 sloc) 1.4 KB
 🔄 Update WPScan: Keep WPScan up to date with the latest vulnerability databases and security checks.
 
 Commands:
+  wpscan --url <target-url>               Perform a basic scan on the target WordPress website.
+  wpscan --update                         Update WPScan's vulnerability database.
 
-⚡️ wpscan --url <target-url>: Scan a specific WordPress website for vulnerabilities, including plugin and theme vulnerabilities, configuration issues, and more.
-🔎 wpscan --enumerate u: Enumerate WordPress usernames to discover potential targets for brute-force attacks.
-🔄 wpscan --enumerate p: Enumerate WordPress plugins to identify outdated or vulnerable versions.
-🎨 wpscan --enumerate t: Enumerate WordPress themes to identify outdated or vulnerable versions.
-🔐 wpscan --passwords <wordlist-file>: Perform a password brute-force attack using a specified wordlist file.
-📂 wpscan --wp-content-dir <custom-directory>: Specify a custom WordPress content directory if it's different from the default.
+Options:
+  --enumerate u                           Enumerate WordPress usernames.
+  --enumerate p                           Enumerate installed plugins.
+  --enumerate t                           Enumerate installed themes.
+  --enumerate tt                          Enumerate TimThumb script vulnerabilities.
+  --passwords <passwords-file>            Specify a file containing a list of passwords for brute-forcing.
+  --usernames <usernames-file>            Specify a file containing a list of usernames for brute-forcing.
+  --enumerate vp                          Perform a vulnerability scan on plugins.
