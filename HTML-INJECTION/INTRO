@@ -1,0 +1,22 @@
+🌐 HTML Injection 🛠️
+
+HTML Injection is a web security vulnerability where an attacker injects malicious HTML code into a web application. This code is then executed in the context of the user's browser, leading to various harmful outcomes. 😈
+
+🔍 Attack Scenario:
+
+An attacker identifies a vulnerable input field in a web form.
+They inject their own HTML code into the input field.
+The web application fails to properly sanitize the input, and the injected code is displayed on the page.
+When other users visit the page, the injected code runs in their browsers.
+⚡ Impact:
+
+Cross-Site Scripting (XSS): Malicious code can steal sensitive user data, perform actions on behalf of the user, or deface the website.
+Phishing Attacks: Attackers can create convincing fake login forms to steal credentials.
+Browser Exploitation: Malware can be delivered through code execution.
+Session Hijacking: Attackers can steal session cookies to impersonate users.
+🛡️ Prevention:
+
+Input Validation: Validate and sanitize user input to prevent code execution.
+Content Security Policy (CSP): Define which sources of content are allowed to be executed.
+Escaping User Input: Encode and escape user-generated content before rendering.
+Remember to always practice responsible disclosure and ethical hacking. 💻🔒
