@@ -5,5 +5,3 @@
 
 🌐 What is HTML Injection? 🤔
 🌐 Payloads 💥 💣
-
-
