@@ -12,6 +12,7 @@
 [Payloads](https://github.com/RootScript7/WebPentrix/blob/main/HTML-INJECTION/Injection-Payloads.txt)
 
 Resources📋
+
 Here are some resources to further understand and mitigate HTML injection vulnerabilities:
 
 [OWASP Cross-Site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
