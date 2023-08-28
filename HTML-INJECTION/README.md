@@ -6,7 +6,7 @@
 
 [🌐 What is HTML Injection? 🤔 ](https://github.com/RootScript7/WebPentrix/blob/main/HTML-INJECTION/INTRO)
 
-[💥 💣Payloads  ](https://github.com/RootScript7/WebPentrix/blob/main/HTML-INJECTION/Injection-Payloads.txt)
+[💥 💣 Payloads  ](https://github.com/RootScript7/WebPentrix/blob/main/HTML-INJECTION/Injection-Payloads.txt)
 
 Resources📋
 
